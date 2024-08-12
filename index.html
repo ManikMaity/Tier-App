@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tearless</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="main-heading">Tier App</h1>
+    <form action="">
+        <label for="tier">Tier</label>
+        <input type="text" id="tier" name="tier" placeholder="Give your tier name...">
+        <input type="color" name="tier-color" id="tier-color" value="#aa3e3e">
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <form action="" id="image-form">
+        <label for="image-input">Image Url: </label>
+        <input type="text" id="image-input" name="image-input" placeholder="Enter your image url here..">
+        <button type="submit" id="image-submit">Add Image</button>
+    </form>
+
+    <section class="non-tier-section">
+        <div class="item-container" draggable="true">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0l_BkBi-oZp7sPqn3XrcbHtEF_xvPDnFaFw&s" alt="">
+        </div>
+
+        <div class="item-container" draggable="true">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0l_BkBi-oZp7sPqn3XrcbHtEF_xvPDnFaFw&s" alt="">
+        </div>
+    </section>
+    
+
+    <section class="tier-list-section">
+        
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
